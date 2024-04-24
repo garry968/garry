@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Creative - Start Bootstrap Theme</title>
+        <title>Garrison Keane GIS portfolio</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap Icons-->
@@ -20,7 +20,7 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="#page-top">Garrison Keane</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -33,7 +33,7 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> -->
         <!-- Masthead-->
         <header class="masthead">
             <div class="container px-4 px-lg-5 h-100">
@@ -43,29 +43,71 @@
                         <hr class="divider" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 mb-5">Best maps from my GIS class</p>
-                        <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+                        <p class="text-white-75 mb-5">In this semester, we solved problems  in a GIS framework. <br>
+                            We used ArcGIS pro, ArcGIS Developer and codepen.io software and environment to solve problems. We also used various datasets to solve problems.
+                            Thes data included census data, election data among other datasets. <br>
+                            Below are my three favourite maps I designed while solving the problems.
+                        </p>
+                        <a class="btn btn-primary btn-xl" href="#map1">First Map</a>
                     </div>
                 </div>
             </div>
         </header>
         <!-- About-->
-        <section class="page-section bg-primary" id="about">
+        <section class="page-section bg-white" id="map1">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">We've got what you need!</h2>
+                        <h2 class="text-black mt-0">Homicide Density Map</h2>
+                        <p class="text-black-75 mb-4">The fourth lab aimed at manipulating uncooperative data to make insights. In this module, I learned how to combine, summarize, and change attribute tables by using joins and creating and calculating new fields. The assignment for this week was to describe the distribution of homicide density in Chicago and to compare the spatial patterns of homicides, Airbnb listings, and Airbnb prices in Chicago.
+                        <img class="img-fluid" src="assets\Homicide-Density.png" alt="Homicide Density map" />
                         <hr class="divider divider-light" />
-                        <p class="text-white-75 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
-                        <a class="btn btn-light btn-xl" href="#services">Get Started!</a>
+                        <p class="text-black-75 mb-4">Districts 11 and 15 have the highest number of homicides per square mile in Chicago(1.5-2.5). Most(19 of 25) police districts report the lowest homicide cases per square mile in Chicago(None- 0.5) </p>
+                        <a class="btn btn-light btn-xl" href="#map2">Second Map</a>
                     </div>
                 </div>
             </div>
+        <!-- </section> -->
+        <!-- <section class="page-section bg-white" id="map2"> -->
+            <div class="container px-4 px-lg-5" id="map2">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-black mt-0">Election Map of Philadelphia</h2>
+                        <hr class="divider divider-light" />
+                        <p class="text-black-75 mb-4">The second mastery assignment aimed to create a choropleth maps using data from Miami
+                            County and the state of Philadelphia. Data provided for this assignment were in tabular and
+                            spatial formats, Geographic coordinate systems, and in a raw as-collected state. The assignment
+                            enabled me to practice projecting data, joining tables to spatial layers, calculating geometry, to calculating other fields to create a new field.<br>
+                            The objective of the third problem is to create an election map of Philadelphia that shows
+                            how each county voted for the president in 2020</p>
+                        <img class="img-fluid" src="assets\Philadelphia-Voting.png" alt="..." />
+                        <p class="text-black-75 mb-4"> The map uses red color for Trump and blue color for Biden for counties that voted in favor of each candidate. The map also has a saturation of color depending on how the favored candidate won.</p> 
+                        <a class="btn btn-light btn-xl" href="#map3">Third Map</a>
+                </div>
+            </div>
+        <!-- </section> -->
+        <!-- <section class="page-section bg-primary" id="map3"> -->
+            <div class="container px-4 px-lg-5" id="map3">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="text-black mt-0">Water pollution in Michigan</h2>
+                        <p class="text-black-75 mb-4">In the third mastery assignment we found out the vulnerable areas where people are at risk of
+                            drinking poisonous tap water in Flint, Michigan.<br>I used intersection, clipping, join, buffer, and
+                            map-making map-making tools to solve this problem poisonous water.</p>
+                        <img class="img-fluid" src="assets\Vulnerable-Areas.png" alt="..." />
+                        <hr class="divider divider-light" />
+                        <p class="text-black-75 mb-4">The map shows the two vulnerable areas in Flint where people are susceptible to drinking poisonous water:</p>
+                    </div>
+                </div>
+            </div>
+            
+
         </section>
         <!-- Services-->
-        <section class="page-section" id="services">
+        <!-- <section class="page-section" id="services">
             <div class="container px-4 px-lg-5">
                 <h2 class="text-center mt-0">At Your Service</h2>
+                <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
                 <hr class="divider" />
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-3 col-md-6 text-center">
@@ -98,9 +140,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- Portfolio-->
-        <div id="portfolio">
+        <!-- <div id="portfolio">
             <div class="container-fluid p-0">
                 <div class="row g-0">
                     <div class="col-lg-4 col-sm-6">
@@ -159,90 +201,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Call to action-->
-        <section class="page-section bg-dark text-white">
-            <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-                <a class="btn btn-light btn-xl" href="https://startbootstrap.com/theme/creative/">Download Now!</a>
-            </div>
-        </section>
-        <!-- Contact-->
-        <section class="page-section" id="contact">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 col-xl-6 text-center">
-                        <h2 class="mt-0">Let's Get In Touch!</h2>
-                        <hr class="divider" />
-                        <p class="text-muted mb-5">Ready to start your next project with us? Send us a messages and we will get back to you as soon as possible!</p>
-                    </div>
-                </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                    <div class="col-lg-6">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
-                        </form>
-                    </div>
-                </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
-                        <i class="bi-phone fs-2 mb-3 text-muted"></i>
-                        <div>+1 (555) 123-4567</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
+        </div> -->
+            <!-- Footer-->
         <footer class="bg-light py-5">
             <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2024 - Garrison Kenae</div></div>
         </footer>
